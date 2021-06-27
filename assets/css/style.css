@@ -697,7 +697,7 @@ section {
     margin: 0 auto;
     width: 64px;
     height: 64px;
-    background: #cc1616;
+    background-image: url('../img/hero-bg.jpg');
     transition: all .3s ease-out 0s;
     display: flex;
     align-items: center;
@@ -739,8 +739,12 @@ section {
     margin-bottom: 0;
 }
 
+.bg-hover {
+    background-color: lightcoral;
+    opacity: .4;
+}
+
 .services .icon-box:hover {
-    background: #cc1616;
     border-color: #cc1616;
     padding: 70px 20px 90px 20px;
 }
@@ -1483,4 +1487,15 @@ section {
     #footer .footer-top .footer-info {
         margin: -20px 0 30px 0;
     }
+}
+
+
+/* Terrace */
+
+.text-justify {
+    text-align: justify;
+}
+
+.primary {
+    height: 230px;
 }
