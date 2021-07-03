@@ -37,8 +37,8 @@
     <section id="topbar" class="d-flex align-items-center">
         <div class="container d-flex justify-content-center justify-content-md-between">
             <div class="contact-info d-flex align-items-center">
-                <i class="bi bi-envelope-fill"></i><a href="mailto:sivawaterproofing@yahoo.com">sivawaterproofing@yahoo.com</a>
-                <i class="bi bi-phone-fill phone-icon"></i> <a href="tel:+91 9486966939">+91 9486966939</a>
+               <div class=" "> <i class="bi bi-envelope-fill"></i><a href="mailto:sivawaterproofing@yahoo.com">sivawaterproofing@yahoo.com</a></div>
+                <div class=" "><i class="bi bi-phone-fill phone-icon"></i><a href="tel:+91 9486966939">9486966939</a></div>
             </div>
             <div class="social-links d-none d-md-block">
                 <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -54,7 +54,7 @@
         <div class="container d-flex align-items-center justify-content-between">
 
             <h1 class="logo">
-                <a href="index.html"><img src="assets/img/slogo.png" alt="" style="height: 40px;"> Siva WaterProofing</a>
+                <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
             </h1>
 
             <nav id="navbar" class="navbar">
@@ -86,15 +86,18 @@
             <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                    <img src="assets/img/portfolio/portfolio-1.jpg" alt="" class="w-100 h-100">
+                    <img src="./assets/img/2.heat-insulations/heat-profile.jpg" alt="" class="w-100 h-100 img-fluid">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="assets/img/portfolio/portfolio-2.jpg" alt="" class="w-100 h-100">
+                    <img src="./assets/img/8.epoxy-polyurethane/ep-profile.jpg" alt="" class="w-100 h-100 img-fluid">
                 </div>
 
                 <div class="swiper-slide">
-                    <img src="assets/img/portfolio/portfolio-3.jpg" alt="" class="w-100 h-100">
+                    <img src="./assets/img/1.terrace/tr-profile.jpg" alt="" class="w-100 h-100 img-fluid">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/10.building-renovation/br-inner5.jpg" alt="" class="w-100 h-100 img-fluid">
                 </div>
 
             </div>
@@ -115,11 +118,11 @@
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
                         <div class="section-title">
-                            <span>About Us</span>
+                            <span class="d-none d-sm-block">About Us</span>
                             <h2>About Us</h2>
                         </div>
 
-                        <p>
+                        <p class="text-justify">
                             Siva waterproofing is into waterproofing coating business in chennai. We specialize in protective coating, Pressure Grounding, Structural repairs and rehabilitation. We have a vast range of proven protective coatings that are suitable for all surface
                             typees. Our coatings are high performance 100% solid speciality coatings designed to protect various industrial structures, equipments and civil structures against corrison, heat and chemical attack, fungus, ultraviolet radiation.
                             Empowered with creative skills, impeccable workmanship and efficient service, Rithka Alcheme team has successfully created its stamp of elegance and efficiency on many large corporate offices, hotels, restaurants, cafes, clubs,
@@ -138,7 +141,7 @@
             <div class="container">
 
                 <div class="section-title">
-                    <span>Services</span>
+                    <span class="d-none d-sm-block">Services</span>
                     <h2>Services</h2>
                     <!-- <p>We offer the full spectrum of services to organizations work better.</p> -->
                 </div>
@@ -147,11 +150,11 @@
 
                     <div class="col-lg-6 col-md-6    align-items-stretch mt-4  " data-aos="fade-up" data-aos-delay="600">
 
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/1.terrace/tr-profile.jpg'); background-position: center;
                      background-size: cover;">
 
                             <div class="icon-box">
-                                <h4><a href="portfolio-details.html">Terrace Waterproofing Treatment</a></h4>
+                                <h4><a onclick="openmodal(1)" href="javascript:void(0)">Terrace Waterproofing Treatment</a></h4>
                             </div>
 
                         </div>
@@ -159,93 +162,93 @@
                     </div>
 
                     <div class="col-lg-6 col-md-6   align-items-stretch mt-4 " data-aos="fade-up" data-aos-delay="600">
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/2.heat-insulations/heat-profile.jpg'); background-position: center;
                     background-size: cover;">
                             <div class="icon-box">
                                 <!-- <div class="icon"><i class="bx bx-sun"></i></div> -->
-                                <h4><a href="heat-insulation.html">Heat Insulations Coating</a></h4>
+                                <h4><a href="javascript:void(0)" onclick="openmodal(2)" id="heatmode">Heat Insulations Coating</a></h4>
                                 <!-- <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p> -->
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6   align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/3.external-protective/ep-profile.jpg'); background-position: center;
                         background-size: cover;">
                             <div class="icon-box">
                                 <!-- <div class="icon"><i class="bx bx-merge"></i></div> -->
-                                <h4><a href="external-protective.html">External Protective Coating</a></h4>
+                                <h4><a href="javascript:void(0)" onclick="openmodal(3)">External Protective Coating</a></h4>
                                 <!-- <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p> -->
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6   align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/4.structural-repairs/structural-profile.jpg'); background-position: center;
                         background-size: cover;">
                             <div class="icon-box">
                                 <!-- <div class="icon"><i class="bx bx-shield"></i></div> -->
-                                <h4><a href="structural-repairs.html">Structural Repairs & Rehabilitation</a></h4>
+                                <h4><a href="javascript:void(0)" onclick="openmodal(4)">Structural Repairs & Rehabilitation</a></h4>
                                 <!-- <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p> -->
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/5.pu-injection/pu-profile.jpg'); background-position: center;
                         background-size: cover;">
                             <div class="icon-box">
                                 <!-- <div class="icon"><i class="bx bx-building"></i></div> -->
-                                <h4><a href="pu-injection.html">PU Injection for Concrete Seepage</a></h4>
+                                <h4><a href="javascript:void(0)" onclick="openmodal(5)">PU Injection for Concrete Seepage</a></h4>
                                 <!-- <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p> -->
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/6.waterproofing-coatings/wp-profile.jpg'); background-position: center;
                         background-size: cover;">
                             <div class="icon-box">
                                 <!-- <div class="icon"><i class="bx bx-water"></i></div> -->
-                                <h4><a href="water-proofing-coating.html">Water Proofing Coatings</a></h4>
+                                <h4><a href="javascript:void(0)" onclick="openmodal(6)">Water Proofing Coatings</a></h4>
                                 <!-- <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p> -->
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/7.tankwaterproofing-treatment/tank-profile.jpeg'); background-position: center;
                         background-size: cover;">
                             <div class="icon-box">
                                 <!-- <div class="icon"><i class="bx bx-water"></i></div> -->
-                                <h4><a href="tank-waterproofing.html">Tank Waterproofing Treatment</a></h4>
+                                <h4><a href="javascript:void(0)" onclick="openmodal(7)">Tank Waterproofing Treatment</a></h4>
                                 <!-- <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p> -->
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/8.epoxy-polyurethane/ep-profile.jpg'); background-position: center;
                         background-size: cover;">
                             <div class="icon-box">
                                 <!-- <div class="icon"><i class="bx bx-layer-plus"></i></div> -->
-                                <h4><a href="expoxy-polyurethane-coating.html">Epoxy Polyurethane Coating Terrace Treatment</a></h4>
+                                <h4><a href="javascript:void(0)" onclick="openmodal(8)">Epoxy Polyurethane Coating Terrace Treatment</a></h4>
                                 <!-- <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p> -->
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/9.epoxy-tile/tile-profile.JPG'); background-position: center;
                         background-size: cover;">
                             <div class="icon-box">
                                 <div class=""> </div>
-                                <h4><a href="epoxy-tile-grouts-bathroom.html">Epoxy Tile Grouts for Bathroom</a></h4>
+                                <h4><a href="javascript:void(0)" onclick="openmodal(9)">Epoxy Tile Grouts for Bathroom</a></h4>
                                 <p></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
-                        <div class="card border-0 primary" style="background-image: url('./assets/img/home.jpg'); background-position: center;
+                        <div class="card border-0 primary" style="background-image: url('./assets/img/10.building-renovation/building-profile.jpg'); background-position: center;
                         background-size: cover;">
                             <div class="icon-box">
 
-                                <h4><a href="">Building Renovation</a></h4>
+                                <h4><a href="javascript:void(0)" onclick="openmodal(10)">Building Renovation</a></h4>
 
                             </div>
                         </div>
@@ -259,11 +262,11 @@
 
 
         <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio">
+        <!-- <section id="portfolio" class="portfolio">
             <div class="container">
 
                 <div class="section-title">
-                    <span>Our Works</span>
+                    <span class="d-none d-sm-block">Our Works</span>
                     <h2>Our Works</h2>
 
                 </div>
@@ -364,151 +367,15 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
         <!-- End Portfolio Section -->
-
-        <!-- ======= Pricing Section ======= -->
-        <!-- <section id="pricing" class="pricing">
-            <div class="container">
-
-                <div class="section-title">
-                    <span>Pricing</span>
-                    <h2>Pricing</h2>
-                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
-                        <div class="box">
-                            <h3>Free</h3>
-                            <h4><sup>$</sup>0<span> / month</span></h4>
-                            <ul>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                                <li class="na">Pharetra massa</li>
-                                <li class="na">Massa ultricies mi</li>
-                            </ul>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
-                        <div class="box featured">
-                            <h3>Business</h3>
-                            <h4><sup>$</sup>19<span> / month</span></h4>
-                            <ul>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                                <li>Pharetra massa</li>
-                                <li class="na">Massa ultricies mi</li>
-                            </ul>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-                        <div class="box">
-                            <h3>Developer</h3>
-                            <h4><sup>$</sup>29<span> / month</span></h4>
-                            <ul>
-                                <li>Aida dere</li>
-                                <li>Nec feugiat nisl</li>
-                                <li>Nulla at volutpat dola</li>
-                                <li>Pharetra massa</li>
-                                <li>Massa ultricies mi</li>
-                            </ul>
-                            <div class="btn-wrap">
-                                <a href="#" class="btn-buy">Buy Now</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section> -->
-        <!-- End Pricing Section -->
-
-        <!-- ======= Team Section ======= -->
-        <!-- <section id="team" class="team">
-            <div class="container">
-
-                <div class="section-title">
-                    <span>Team</span>
-                    <h2>Team</h2>
-                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
-                        <div class="member">
-                            <img src="assets/img/team/team-1.jpg" alt="">
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                            <p>
-                                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-                            </p>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
-                        <div class="member">
-                            <img src="assets/img/team/team-2.jpg" alt="">
-                            <h4>Sarah Jhinson</h4>
-                            <span>Product Manager</span>
-                            <p>
-                                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-                            </p>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
-                        <div class="member">
-                            <img src="assets/img/team/team-3.jpg" alt="">
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                            <p>
-                                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-                            </p>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section> -->
-        <!-- End Team Section -->
+ 
         <!-- ======= enquiry Section ======= -->
         <section id="enquiry" class="contact">
             <div class="container">
 
                 <div class="section-title">
-                    <span>Enquiry</span>
+                    <span class="d-none d-sm-block">Enquiry</span>
                     <h2>Enquiry</h2>
                     <!-- <p>In any questions or clearification </p> -->
                 </div>
@@ -546,9 +413,9 @@
         <div class="container">
 
             <div class="section-title">
-                <span>Contact</span>
+                <span class="d-none d-sm-block">Contact</span>
                 <h2>Contact</h2>
-                <p>Out contact address as below</p>
+                
             </div>
 
             <div class="row" data-aos="fade-up">
@@ -663,17 +530,93 @@
             <div class="copyright">
                 &copy; Copyright <strong><span>sivawaterproofing</span></strong>. All Rights Reserved
             </div>
-            <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/day-multipurpose-html-template-for-free/ -->
-                <!-- Designed by <a href="#">satheeshveera</a> -->
-            </div>
         </div>
     </footer>
     <!-- End Footer -->
+<!-- modal open  -->
+<div class="modal" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" class="ModalLabel"> </h4>
+          <button type="button " class="close closebtn" data-dismiss="modal" aria-label="Close" onclick="hide()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <main id="main">
 
+                <!-- ======= Breadcrumbs ======= -->
+                <section id="breadcrumbs" class="breadcrumbs">
+                    <div class="container">
+        
+                        <ol>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="ModalLabel">Terrace Waterproofing Treatment</li>
+                        </ol>
+                        <h2 class="ModalLabel">Terrace Waterproofing Treatment</h2>
+        
+                    </div>
+                </section>
+                <!-- End Breadcrumbs -->
+        
+                <!-- =======   Section ======= -->
+                <section id="portfolio-details" class="portfolio-details">
+                    <div class="container">
+                        <div class="row  ">
+                            <div class="col-lg-4">
+                                <div class="portfolio-description text-justify ">
+                                    <!-- <h2>This is an example of portfolio detail</h2> -->
+                                    <p class="modalpara">
+                                        Siva WaterProofing is a customer oriented company engaged in offering Quality water treatment services, Waterproofing is the process of making an object or structure waterproof or water-resistant so that it remains relatively unaffected by water or resisting
+                                        the ingress of water under specified conditions. Such items may be used in wet environments or under water to specified depths.
+                                    </p>
+                                </div>
+                            </div>
+        
+        
+        
+                            <div class="col-lg-8">
+                                <div class="portfolio-details-slider swiper-container">
+                                    <div class="swiper-wrapper align-items-center">
+        
+                                        <div class="swiper-slide">
+                                            <img id="imginner1" src="" alt="" height="360px" class="img-fluid">
+                                        </div>
+        
+                                        <div class="swiper-slide">
+                                            <img id="imginner2" src="" alt="" height="360px" class="img-fluid">
+                                        </div>
+        
+                                        <div class="swiper-slide">
+                                            <img id="imginner3" src="" alt="" height="360px" class="img-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img id="imginner4" src="" alt="" height="360px" class="img-fluid">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img id="imginner5" src="" alt="" height="360px" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+        
+        
+                        </div>
+        
+        
+                    </div>
+                </section>
+                <!-- End Portfolio Details Section -->
+        
+            </main>
+        </div>
+         
+      </div>
+    </div>
+  </div>
+<!-- modal end  -->
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
     <div id="preloader"></div>
 
@@ -684,10 +627,11 @@
     <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
+
