@@ -525,7 +525,7 @@ h6 {
 --------------------------------------------------------------*/
 
 section {
-    padding: 60px 0;
+    padding: 25px 0;
     overflow: hidden;
 }
 
@@ -1486,14 +1486,6 @@ section {
 #footer .credits a {
     color: #0060b4;
 }
-
-@media (max-width: 575px) {
-    #footer .footer-top .footer-info {
-        margin: -20px 0 30px 0;
-    }
-}
-
-
 /* Terrace */
 
 .text-justify {
@@ -1508,4 +1500,25 @@ section {
     background: #fff;
     font-weight: 600;
     font-size: 20px;
+}
+@media (max-width: 575px) {
+    #footer .footer-top .footer-info {
+        margin: -20px 0 30px 0;
+    }
+    section {
+        padding: 10px 0 !important;
+    }
+    .pb-sm{
+        padding-bottom: 25px !important;
+    }
+}
+@media (max-width: 400px) {
+    .services .icon-box {
+        padding-top: 145px;
+    }
+}
+@media (max-width: 765px) {
+    .continue-link {
+        margin-top: -54px;
+    }
 }

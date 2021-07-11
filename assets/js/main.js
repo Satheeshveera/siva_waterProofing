@@ -220,29 +220,29 @@
     }
   });
 
-  // /**
-  //  * Initiate portfolio lightbox
-  //  */
-  // const portfolioLightbox = GLightbox({
-  //   selector: ".portfolio-lightbox",
-  // });
+  /**
+   * Initiate portfolio lightbox
+   */
+  const portfolioLightbox = GLightbox({
+    selector: ".portfolio-lightbox",
+  });
 
-  // /**
-  //  * Portfolio details slider
-  //  */
-  // new Swiper(".portfolio-details-slider", {
-  //   speed: 400,
-  //   loop: true,
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: false,
-  //   },
-  //   pagination: {
-  //     el: ".swiper-pagination",
-  //     type: "bullets",
-  //     clickable: true,
-  //   },
-  // });
+  /**
+   * Portfolio details slider
+   */
+  new Swiper(".portfolio-details-slider", {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+      clickable: true,
+    },
+  });
 
   /**
    * Animation on scroll
@@ -264,7 +264,7 @@ function openmodal(id) {
     $("#largeModal").removeClass("d-none");
     $("#largeModal").addClass("d-block");
     $(".ModalLabel").html("Terrace Waterproofing Treatment");
-    $(".modalpara").html("  Siva WaterProofing is a customer oriented company engaged in offering Quality water treatment services, Waterproofing is the process of making an object or structure waterproof or water-resistant so that it remains relatively unaffected by water or resisting the ingress of water under specified conditions. Such items may be used in wet environments or under water to specified depths.");
+    $(".modalpara").html("  Siva Waterproofing is a customer-oriented company engaged in offering Quality water treatment services, Waterproofing is the process of making an object or structure waterproof or water-resistant so that it remains relatively unaffected by water or resisting the ingress of water under specified conditions. Such items may be used in wet environments or underwater to specified depths.");
 
     $("#imginner1").attr("src","assets/img/1.terrace/tr-inner1.jpg");
     $("#imginner2").attr("src","assets/img/1.terrace/tr-inner2.jpg");
@@ -275,7 +275,7 @@ function openmodal(id) {
     $("#largeModal").removeClass("d-none");
     $("#largeModal").addClass("d-block");
     $(".ModalLabel").html("Heat Insulations Coating");
-    $(".modalpara").html("  Siva WaterProofing is the pioneer company engaged in offering services of Commercial Heat Insulations Coating.Thermal insulation is the reduction of heat transfer (the transfer of thermal energy between objects of differing temperature) between objects in thermal contact or in range of radiative influence. Thermal insulation can be achieved with specially engineered methods or processes, as well as with suitable object shapes and materials.");
+    $(".modalpara").html("  Siva Waterproofing is the pioneer company engaged in offering services of Commercial Heat Insulations Coating. Thermal insulation is the reduction of heat transfer (the transfer of thermal energy between objects of differing temperatures) between objects in thermal contact or in a range of radiative influences. Thermal insulation can be achieved with specially engineered methods or processes, as well as with suitable object shapes and materials.");
 
     $("#imginner1").attr("src","assets/img/2.heat-insulations/ht-inner1.jpg");
     $("#imginner2").attr("src","assets/img/2.heat-insulations/ht-inner2.jpg");
@@ -287,7 +287,7 @@ function openmodal(id) {
     $("#largeModal").removeClass("d-none");
     $("#largeModal").addClass("d-block");
     $(".ModalLabel").html("External Protective Coating");
-    $(".modalpara").html("  A protective finishing coat is a substance or chemical composition applied to the surface of an object that provides a barrier of protection from external elements. Polishes use a highly refined abrasive (generally finer than 4,000 grit) that is suspended in a liquid carrier. The polish wears away the surface to create a smooth surface. The smoother the surface the higher the resulting gloss or perceived shine");
+    $(".modalpara").html("  A protective finishing coat is a substance or chemical composition applied to the surface of an object that provides a barrier of protection from external elements. Polishes use a highly refined abrasive (generally finer than 4,000 grit) that is suspended in a liquid carrier. The polish wears away the surface to create a smooth surface. The smoother the surface the higher the resulting gloss or perceived shine.");
 
     $("#imginner1").attr("src","assets/img/3.external-protective/ep-inner1.jpg");
     $("#imginner2").attr("src","assets/img/3.external-protective/ep-inner2.jpg");
@@ -320,7 +320,7 @@ function openmodal(id) {
     $("#largeModal").removeClass("d-none");
     $("#largeModal").addClass("d-block");
     $(".ModalLabel").html("Water Proofing Coatings");
-    $(".modalpara").html("  Waterproofing is the process of making an object or structure waterproof or water-resistant, so that it remains relatively unaffected by water or resisting the ingress of water under specified conditions. Such items may be used in wet environments or under water to specified depths.");
+    $(".modalpara").html("  Waterproofing is the process of making an object or structure waterproof or water-resistant so that it remains relatively unaffected by water or resisting the ingress of water under specified conditions. Such items may be used in wet environments or underwater to specified depths.");
 
     $("#imginner1").attr("src","assets/img/6.waterproofing-coatings/wc-inner1.jpg");
     $("#imginner2").attr("src","assets/img/6.waterproofing-coatings/wc-inner2.jpg");
@@ -331,7 +331,7 @@ function openmodal(id) {
     $("#largeModal").removeClass("d-none");
     $("#largeModal").addClass("d-block");
     $(".ModalLabel").html("Tank Waterproofing Treatment");
-    $(".modalpara").html("  Basement waterproofing involves techniques and materials used to prevent water from penetrating the basement of a house or a building. Waterproofing a basement that is below ground level can require the application of sealant materials, the installation of drains and sump pumps, and more.");
+    $(".modalpara").html("  A basement waterproofing involves techniques and materials used to prevent water from penetrating the basement of a house or a building. Waterproofing a basement that is below ground level can require the application of sealant materials, the installation of drains and sump pumps, and more.");
 
     $("#imginner1").attr("src","assets/img/7.tankwaterproofing-treatment/twt-inner1.jpg");
     $("#imginner2").attr("src","assets/img/7.tankwaterproofing-treatment/twt-inner2.jpg");
@@ -342,7 +342,7 @@ function openmodal(id) {
     $("#largeModal").removeClass("d-none");
     $("#largeModal").addClass("d-block");
     $(".ModalLabel").html("Epoxy Polyurethane Coating Terrace Treatment");
-    $(".modalpara").html("  Epoxy grouting is done based on the type of crack, width and depth of crack in concrete structure. Grouting of wide cracks requires large quantity of grout materials. In such cases fillers are used to fill the cracks before epoxy grouting.");
+    $(".modalpara").html("  Epoxy grouting is done based on the type of crack, width, and depth of crack in the concrete structure. Grouting of wide cracks requires a large quantity of grout materials. In such cases, fillers are used to fill the cracks before epoxy grouting.");
 
     $("#imginner1").attr("src","assets/img/8.epoxy-polyurethane/epy-inner1.png");
     $("#imginner2").attr("src","assets/img/8.epoxy-polyurethane/epy-inner2.png");
@@ -353,7 +353,7 @@ function openmodal(id) {
     $("#largeModal").removeClass("d-none");
     $("#largeModal").addClass("d-block");
     $(".ModalLabel").html("Epoxy Tile Grouts for Bathroom");
-    $(".modalpara").html("  A bathroom is a room in the home for personal hygiene activities, generally containing a sink (basin) and either a bathtub, a shower, or both. In some countries, the toilet is included in this room, for ease of plumbing, whereas other cultures consider this insanitary, and give that fixture a room of its own.");
+    $(".modalpara").html("  A bathroom is a room in the home for personal hygiene activities, generally containing a sink (basin) and either a bathtub, a shower, or both. In some countries, the toilet is included in this room, for ease of plumbing, whereas other cultures consider this insanitary and give that fixture a room of its own.");
 
     $("#imginner1").attr("src","assets/img/9.epoxy-tile/et-inner1.jpg");
     $("#imginner2").attr("src","assets/img/9.epoxy-tile/et-inner2.jpg");
@@ -364,7 +364,7 @@ function openmodal(id) {
     $("#largeModal").removeClass("d-none");
     $("#largeModal").addClass("d-block");
     $(".ModalLabel").html("Building Renovation");
-    $(".modalpara").html("  Renovation (also called remodeling) is the process of improving a broken, damaged, or outdated structure. Renovations are typically either commercial or residential.[citation needed] Additionally, renovation can refer to making something new, or bringing something back to life and can apply in social contexts.");
+    $(".modalpara").html("  Renovation (also called remodeling) is the process of improving a broken, damaged, or outdated structure. Renovations are typically either commercial or residential.[citation needed] Additionally, renovation can refer to make something new, or bringing something back to life and can apply in social contexts.");
 
     $("#imginner1").attr("src","assets/img/10.building-renovation/br-inner1.jpg");
     $("#imginner2").attr("src","assets/img/10.building-renovation/br-inner2.jpg");
