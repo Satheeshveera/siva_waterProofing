@@ -149,7 +149,9 @@ h6 {
 #topbar .contact-info a:hover {
     color: #fff;
 }
-
+.nav-link:focus, .nav-link:hover {
+    color: #fff !important;
+}
 #topbar .contact-info i {
     color: #0060b4;
     line-height: 0;
@@ -1432,7 +1434,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-    color: #eb4444;
+    color: #0060b4;
 }
 
 #footer .footer-top .footer-newsletter form {
