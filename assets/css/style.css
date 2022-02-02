@@ -150,7 +150,7 @@ h6 {
     color: #fff;
 }
 .nav-link:focus, .nav-link:hover {
-    color: #fff !important;
+    /* color: #fff !important; */
 }
 #topbar .contact-info i {
     color: #0060b4;
@@ -259,13 +259,15 @@ h6 {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
+    margin-right: 5px;
 }
 
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    background: #0060b4;
+    /* background: #0060b4; */
+    border-bottom: 4px solid #0060b4;
 }
 
 .navbar .dropdown ul {
